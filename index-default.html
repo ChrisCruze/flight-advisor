@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Flight Advisor</title>
+    <title>Advent Multipurpose Landing Page Template</title>
     <link rel="icon" href="https://advent.site44.com/assets/logos/favicon.png" type="image/png" sizes="16x16">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Advent Multipurpose Landing Page Template">
@@ -21,32 +21,28 @@
 
       <div class="main cs-main" id="main">
           <section class="split-home">
+            <section class="left-section wow fadeIn" data-wow-delay="0.3s">
 
-            <section class="left-section">
+            </section>
+            <section class="right-section">
+
               <div class="hero-section">
               <div class="hero-content text-center">
-
-              <div class="app-info wow fadeInUp">
-                <h1 class="wow fadeInUp">"Music Washes Away From The Soul The Dust of Everyday Life."</h1>
-                <h4>Surrounded by thousands of friends. Strobe lights  <br class="hidden-xs"> flashing. Bass thumping your hest. Days of no sleep.</h4>
-                <p>Recharge with a moment of peace before the next set.</p>
-
-               </div>
-                <div class="app-img">
-                <img class="wow fadeInUp" src="assets/images/logo.png"  width="200" alt="App Logo" />
+              <div class="app-img">
+               <img class="img-circle wow fadeInUp" src="https://advent.site44.com/assets/logos/app-logo.png"  width="80" alt="App Logo" />
               </div>
-               <div class="download-buttons wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                 <a href="https://spoti.fi/3gVbJOw"><img src="assets/images/spotify2.png" width="150" alt="Download from App Store"></a>
-               </div>
-                  <form id="signupa" class="formee" action="javascript:void(0);">
+              <div class="app-info wow fadeInUp">
+                <h1 class="wow fadeInUp">Make travel fun again.</h1>
+                <h4>Flight Advisor takes the guess work out of your travels. A free SMS service   <br class="hidden-xs"> that tells you when to leave to the airport </h4>
+                <p>We are currently in beta. Sign up to receive an invitation</p>
+                <form id="signupa" class="formee" action="javascript:void(0);">
                   <input name="email" id="email" type="text">
-                  <input class="right inputnew" id="submit_email" type="submit" title="Send" value="Sign Up">
+                  <input class="right inputnew" id="submit_email" type="submit" title="Send" value="Get Early Access">
                 </form>
+               </div>
              </div>
            </div>
           </section>
-                      <section class="right-section wow fadeIn" data-wow-delay="0.3s">
-            </section>
         </section>
 
 
@@ -115,7 +111,7 @@
         const email_value = $("#email").val()
         submit_email(email_value)
         $("#email").val('')
-        alert('Thanks for Signing Up!')
+        alert('saved to firebase')
        }
   );
 
