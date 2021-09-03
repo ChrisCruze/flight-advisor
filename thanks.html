@@ -29,9 +29,8 @@
 
               <div class="app-info wow fadeInUp">
                 <h1 class="wow fadeInUp">Thanks for signing up!</h1>
-                <h4>Want to get sooner? Gain early access by inviting 3 friends </h4>
-
-                <p>Here's your unique link: https://flight-advisor.com/?id=kd37MC</p>
+                <h4>Want to get it sooner? Gain early access by inviting 3 friends: </h4>
+                <p>Here's your unique link: <span id='unique_link'></span></p>
                </div>
              </div>
 
@@ -83,8 +82,16 @@
   const session_id = moment().unix()
 
 
+     var url_session_id = String(window.location.href).split("=")[1]
+  var url = 'https://flight-advisor.com/?id='+url_session_id
+  $("#unique_link").html(url)
+
 
   $.getJSON('http://ip-api.com/json', function(ip_data) {
+
+
+
+
     const time_stamp_dict = {
         time_stamp: moment().format(),
         session_id:session_id,

@@ -26,7 +26,7 @@
                <div class="hero-content text-center">
                   <div class="app-info wow fadeInUp">
                      <h1 class="wow fadeInUp">"Music Washes Away From The Soul The Dust of Everyday Life."</h1>
-                     <h4>Surrounded by thousands of friends. Strobe lights flashing.<br class="hidden-xs"> Bass thumping your hest. Days of no sleep.<br class="hidden-xs"> Recharge with a moment of peace before the next set.</h4>
+                     <h4>Surrounded by thousands of friends. Strobe lights flashing.<br class="hidden-xs"> Bass thumping your chest. Days of no sleep.<br class="hidden-xs"> Recharge with a moment of peace before the next set.</h4>
                      <div class="download-buttons wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                         <a href="https://spoti.fi/3gVbJOw"><img src="assets/images/spotify2.png" width="150" alt="Download from App Store"></a>
                      </div>
@@ -36,7 +36,12 @@
                      <img class="wow fadeInUp" src="assets/images/logo.png"  width="200" alt="App Logo" />
                   </div>
                   <h4>Flight-Advisor is a free travel planning sms service.<br class="hidden-xs"> We're in beta. Click below to get on the invite list.</h4>
-                  <a class="btn btn-primary btn-action popup wow fadeInDown" data-wow-delay="0.2s" href="index-default.html" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">Sign Up</a>
+                
+                <form id="signupa" class="formee" action="javascript:void(0);">
+                  <input name="email" id="email" type="email" placeholder="Enter Email" >
+                  <input class="right inputnew" id="submit_email" type="submit" title="Send" value="Sign Up">
+                </form>
+
                   </div>
                </div>
             </div>
@@ -113,9 +118,17 @@
   $("#submit_email").click( function()
        {
         const email_value = $("#email").val()
-        submit_email(email_value)
-        $("#email").val('')
-        alert('Thanks for Signing Up!')
+        if (email_value == '' ){
+          alert('Please Enter an Email')
+        }
+        else if (email_value.indexOf('@') == -1 ){
+          alert('Please enter an email in correct format')
+        }
+        else {
+          submit_email(email_value)
+          $("#email").val('')
+          window.location.href = "thanks.html?id="+session_id;
+        }
        }
   );
 
