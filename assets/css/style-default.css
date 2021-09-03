@@ -424,7 +424,7 @@ p {
 .hero-content p {
 	font-family: Poppins;
 	font-size: 14px;
-	color: #fff;
+	color: #A1A1A1;
 	font-weight: 400;
 	line-height: 1.5;
 	margin: 0 0 25px 0;
@@ -433,12 +433,12 @@ p {
 
 .btn-action {
  font-family: Roboto;
- background-color: #edbb44;
- border: 1px solid #edbb44;
- border-radius: 50px;
- color: black;
+ background-color: #3333CC;
+ border: 1px solid #3333CC;
+ border-radius: 0;
+ color: #FFFFFF;
  font-size: 13px;
- font-weight: 600;
+ font-weight: 400;
  letter-spacing: 2px;
  line-height: 1;
  padding: 10px 21px;
@@ -452,7 +452,7 @@ p {
 
 .btn-action:hover, .btn-action:focus,
 .btn-action:active, .btn-action:active:focus {
- background: #fff;
+ background: transparent;
  outline: none;
  color: #3333CC;
  background: transparent;
@@ -884,39 +884,15 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 .app-info h1 {
   font-size: 34px;
   font-weight: 600;
-  color: #8dd7ff;
+  color: #404040;
   margin-top: 30px !important;
 }
-.app-info h5 {
-  font-family: Roboto;
-/*    text-align: left;
-*/
-  font-size: 16px;
-  font-weight: 300;
-  color:  #fff;
-	line-height: 1.4;
-  margin-top: 20px;
-}
-
-.app-info h6 {
-  font-family: Roboto;
-/*    text-align: left;
-*/
-  font-size: 16px;
-  font-weight: 300;
-  color:  #fff;
-	line-height: 1.4;
-  margin-top: 20px;
-}
-
 
 .app-info h4 {
   font-family: Roboto;
-/*    text-align: left;
-*/
   font-size: 16px;
   font-weight: 300;
-  color:  #fff;
+  color:  #3C4B5D;
 	line-height: 1.4;
   margin-top: 20px;
 }
@@ -951,24 +927,11 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .app .btn-action {
 	color: #FFFFFF;
-	background: #edbb44;
+	background: #3333CC;
 	border-color: #3333CC;
 }
 
 .app .btn-action:hover {
-	color: #3333CC;
-	background: transparent;
-	border-color: #3333CC;
-}
-
-
-.app .btn-action-orange {
-	color: #FFFFFF;
-	background: #edbb44;
-	border-color: #3333CC;
-}
-
-.app .btn-action-orange:hover {
 	color: #3333CC;
 	background: transparent;
 	border-color: #3333CC;
@@ -1010,7 +973,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .cs-main .hero-section {
 	padding: 120px 0 0 0;
-	background: #9097ad !important;
+	background: #FFFFFF !important;
 }
 
 .cs-main .hero-content {
@@ -1024,10 +987,6 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .cs-main .left-section {
 	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/split-bg.jpg) no-repeat center center;
-	background-size: cover;
-}
-.cs-main .right-section {
-	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/animals.jpg) no-repeat center center;
 	background-size: cover;
 }
 
@@ -1045,12 +1004,6 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 
 	 .cs-main .left-section{
-			position: relative;
-			width: 100%;
-			min-height: 100vh;
-	}
-
-		 .cs-main .right-section{
 			position: relative;
 			width: 100%;
 			min-height: 100vh;
