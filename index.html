@@ -94,6 +94,7 @@
     const time_stamp_dict = {
         time_stamp: moment().format(),
         session_id:session_id,
+        url:window.location.href
     }
     const upload_dict = Object.assign({}, ip_data, time_stamp_dict);
     console.log({upload_dict})
