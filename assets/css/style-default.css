@@ -424,7 +424,7 @@ p {
 .hero-content p {
 	font-family: Poppins;
 	font-size: 14px;
-	color: #A1A1A1;
+	color: #262626;
 	font-weight: 400;
 	line-height: 1.5;
 	margin: 0 0 25px 0;
@@ -877,22 +877,27 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	padding: 100px 0 0 0;
 }
 
+
+
+.app-img {
+  margin-top: 50px !important;
+}
 .app img {
 	margin: 0 auto;
 }
 
 .app-info h1 {
-  font-size: 34px;
-  font-weight: 600;
-  color: #404040;
+  font-size: 50px;
+  font-weight: 800;
+  color: #154c96;
   margin-top: 30px !important;
 }
 
 .app-info h4 {
   font-family: Roboto;
-  font-size: 16px;
-  font-weight: 300;
-  color:  #3C4B5D;
+  font-size: 24px;
+  font-weight: 450;
+  color:  #154c96;
 	line-height: 1.4;
   margin-top: 20px;
 }
@@ -965,7 +970,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 		padding: 0 20px 0 20px;
 		width: 50%;
 		height: 100%;
-    background: #FFFFFF;
+    background: #ffeaf7;
     z-index: 99;
     overflow: hidden;
     overflow-y: auto;
@@ -973,7 +978,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .cs-main .hero-section {
 	padding: 120px 0 0 0;
-	background: #FFFFFF !important;
+	background: #ffeaf7 !important;
 }
 
 .cs-main .hero-content {
@@ -986,7 +991,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .cs-main .left-section {
-	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/split-bg.jpg) no-repeat center center;
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/suitcase.jpg) no-repeat center center;
 	background-size: cover;
 }
 

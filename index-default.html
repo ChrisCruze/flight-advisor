@@ -28,12 +28,10 @@
 
               <div class="hero-section">
               <div class="hero-content text-center">
-              <div class="app-img">
-               <img class="img-circle wow fadeInUp" src="https://advent.site44.com/assets/logos/app-logo.png"  width="80" alt="App Logo" />
-              </div>
+
               <div class="app-info wow fadeInUp">
                 <h1 class="wow fadeInUp">Make travel fun again.</h1>
-                <h4>Flight Advisor takes the guess work out of your travels. A free SMS service   <br class="hidden-xs"> that tells you when to leave to the airport </h4>
+                <h4>Flight Advisor takes the guess <br class="hidden-xs">  work out of your travels. A <br class="hidden-xs"> free SMS service that tells you <br class="hidden-xs"> when to leave to the airport </h4>
                 <p>We are currently in beta. Sign up to receive an invitation</p>
                 <form id="signupa" class="formee" action="javascript:void(0);">
                   <input name="email" id="email" type="text">
@@ -41,6 +39,10 @@
                 </form>
                </div>
              </div>
+
+                           <div class="app-img pull-right">
+               <img class=" wow fadeInUp" src="assets/images/logo.png"  width="200" alt="App Logo" />
+              </div>
            </div>
           </section>
         </section>
@@ -111,7 +113,7 @@
         const email_value = $("#email").val()
         submit_email(email_value)
         $("#email").val('')
-        alert('saved to firebase')
+        alert('Thanks for Signing Up!')
        }
   );
 
