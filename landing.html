@@ -116,9 +116,17 @@
   $("#submit_email").click( function()
        {
         const email_value = $("#email").val()
-        submit_email(email_value)
-        $("#email").val('')
-        window.location.href = "thanks.html";
+        if (email_value == '' ){
+          alert('Please Enter an Email')
+        }
+        else if (email_value.indexOf('@') == -1 ){
+          alert('Please enter an email in correct format')
+        }
+        else {
+          submit_email(email_value)
+          $("#email").val('')
+          window.location.href = "thanks.html?id="+session_id;
+        }
        }
   );
 

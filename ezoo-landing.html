@@ -14,41 +14,50 @@
     <link rel="stylesheet" href="https://advent.site44.com/assets/css/owl.carousel.css">
     <link rel="stylesheet" href="https://advent.site44.com/assets/css/owl.theme.css">
     <link rel="stylesheet" href="https://advent.site44.com/assets/css/ionicons.min.css"> <!-- Resource style -->
-    <link href="assets/css/style-default.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
   </head>
   <body>
-    <div class="wrapper">
 
-      <div class="main cs-main" id="main">
-          <section class="split-homex">
+  <div class="wrapper">
+   <div class="main cs-main" id="main">
+      <section class="split-home">
+         <section class="left-section">
+            <div class="hero-section">
+               <div class="hero-content text-center">
+                  <div class="app-info wow fadeInUp">
+                     <h1 class="wow fadeInUp">"Music Washes Away From The Soul The Dust of Everyday Life."</h1>
+                     <h4>Surrounded by thousands of friends. Strobe lights flashing.<br class="hidden-xs"> Bass thumping your chest. Days of no sleep.<br class="hidden-xs"> Recharge with a moment of peace before the next set.</h4>
+                     <div class="download-buttons wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                        <a href="https://spoti.fi/3gVbJOw"><img src="assets/images/spotify2.png" width="150" alt="Download from App Store"></a>
+                     </div>
+                     <h5>From the crew at:</h5>
+                  
+                  <div class="app-img">
+                     <img class="wow fadeInUp" src="assets/images/logo.png"  width="200" alt="App Logo" />
+                  </div>
+                  <h4>Flight-Advisor is a free travel planning sms service.<br class="hidden-xs"> We're in beta. Click below to get on the invite list.</h4>
+                
+                <form id="signupa" class="formee" action="javascript:void(0);">
+                  <input name="email" id="email" type="email" placeholder="Enter Email" >
+                  <input class="right inputnew" id="submit_email" type="submit" title="Send" value="Sign Up">
+                </form>
 
-            <section class="right-sectionx">
-
-              <div class="hero-section">
-              <div class="hero-content text-center">
-
-              <div class="app-info wow fadeInUp">
-                <h1 class="wow fadeInUp">Thanks for signing up!</h1>
-                <h4>Want to get it sooner? Gain early access by inviting 3 friends: </h4>
-               <div class="addthis_inline_share_toolbox"></div>
-
-                <p>Here's your unique link: <span id='unique_link'></span></p>
+                  </div>
                </div>
-             </div>
+            </div>
+         </section>
+         <section class="right-section wow fadeIn" data-wow-delay="0.3s">
+         </section>
+      </section>
+   </div>
+   <!-- Main Section -->
+</div>
+<!-- Wrapper-->
 
-                           <div class="app-img pull-right">
-               <img class=" wow fadeInUp" src="assets/images/logo.png"  width="200" alt="App Logo" />
-              </div>
-           </div>
-          </section>
-        </section>
 
 
-    </div><!-- Main Section -->
-  </div><!-- Wrapper-->
 
 <!-- Jquery and Js Plugins -->
-
   <script type="text/javascript" src="https://advent.site44.com/assets/js/jquery-2.1.1.js"></script>
   <script type="text/javascript" src="https://advent.site44.com/assets/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="https://advent.site44.com/assets/js/plugins.js"></script>
@@ -85,21 +94,12 @@
   const session_id = moment().unix()
 
 
-     var url_session_id = String(window.location.href).split("=")[1]
-  var url = 'https://flight-advisor.com/?id='+url_session_id
-  $("#unique_link").html(url)
-
 
   $.getJSON('http://ip-api.com/json', function(ip_data) {
-
-
-
-
     const time_stamp_dict = {
         time_stamp: moment().format(),
         session_id:session_id,
-                url:window.location.href
-
+        url:window.location.href
     }
     const upload_dict = Object.assign({}, ip_data, time_stamp_dict);
     console.log({upload_dict})
@@ -118,15 +118,22 @@
   $("#submit_email").click( function()
        {
         const email_value = $("#email").val()
-        submit_email(email_value)
-        $("#email").val('')
-        alert('Thanks for Signing Up!')
+        if (email_value == '' ){
+          alert('Please Enter an Email')
+        }
+        else if (email_value.indexOf('@') == -1 ){
+          alert('Please enter an email in correct format')
+        }
+        else {
+          submit_email(email_value)
+          $("#email").val('')
+          window.location.href = "thanks.html?id="+session_id;
+        }
        }
   );
 
 
 </script>
- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-61426dd7bc4c78e2"></script>
 
 
   </body>
