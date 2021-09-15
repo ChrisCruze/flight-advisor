@@ -1,0 +1,193 @@
+(FlightInfoStruct){
+   next_offset = -1
+   flights[] = 
+      (FlightStruct){
+         ident = "AAL1146"
+         aircrafttype = "A320"
+         filed_ete = "01:06:00"
+         filed_time = 1631106054
+         filed_departuretime = 1631279400
+         filed_airspeed_kts = 221
+         filed_airspeed_mach = None
+         filed_altitude = 0
+         route = None
+         actualdeparturetime = 0
+         estimatedarrivaltime = 1631283360
+         actualarrivaltime = 0
+         diverted = None
+         origin = "KPHL"
+         destination = "KBOS"
+         originName = "Philadelphia Intl"
+         originCity = "Philadelphia, PA"
+         destinationName = "Boston Logan Intl"
+         destinationCity = "Boston, MA"
+      },
+      (FlightStruct){
+         ident = "AAL1146"
+         aircrafttype = "A320"
+         filed_ete = "00:59:00"
+         filed_time = 1631019642
+         filed_departuretime = 1631193000
+         filed_airspeed_kts = 248
+         filed_airspeed_mach = None
+         filed_altitude = 0
+         route = None
+         actualdeparturetime = 0
+         estimatedarrivaltime = 1631197020
+         actualarrivaltime = 0
+         diverted = None
+         origin = "KPHL"
+         destination = "KBOS"
+         originName = "Philadelphia Intl"
+         originCity = "Philadelphia, PA"
+         destinationName = "Boston Logan Intl"
+         destinationCity = "Boston, MA"
+      },
+      (FlightStruct){
+         ident = "AAL1146"
+         aircrafttype = "A320"
+         filed_ete = "00:47:00"
+         filed_time = 1631015187
+         filed_departuretime = 1631019300
+         filed_airspeed_kts = 392
+         filed_airspeed_mach = None
+         filed_altitude = 230
+         route = "DITCH J225 JFK ROBUC3"
+         actualdeparturetime = 1631019600
+         estimatedarrivaltime = 1631022300
+         actualarrivaltime = 1631022300
+         diverted = None
+         origin = "KPHL"
+         destination = "KBOS"
+         originName = "Philadelphia Intl"
+         originCity = "Philadelphia, PA"
+         destinationName = "Boston Logan Intl"
+         destinationCity = "Boston, MA"
+      },
+      (FlightStruct){
+         ident = "AAL1146"
+         aircrafttype = "A320"
+         filed_ete = "00:55:00"
+         filed_time = 1630755999
+         filed_departuretime = 1630760100
+         filed_airspeed_kts = 431
+         filed_airspeed_mach = None
+         filed_altitude = 290
+         route = "DITCH V312 JIMEE WAVEY SHLEP JORDN PROVI ROBUC3"
+         actualdeparturetime = 1630759855
+         estimatedarrivaltime = 1630763160
+         actualarrivaltime = 1630763160
+         diverted = None
+         origin = "KPHL"
+         destination = "KBOS"
+         originName = "Philadelphia Intl"
+         originCity = "Philadelphia, PA"
+         destinationName = "Boston Logan Intl"
+         destinationCity = "Boston, MA"
+      },
+      (FlightStruct){
+         ident = "AAL1146"
+         aircrafttype = "A320"
+         filed_ete = "00:48:00"
+         filed_time = 1630669440
+         filed_departuretime = 1630673700
+         filed_airspeed_kts = 412
+         filed_airspeed_mach = None
+         filed_altitude = 230
+         route = "DITCH J225 JFK ROBUC3"
+         actualdeparturetime = 1630673488
+         estimatedarrivaltime = 1630676520
+         actualarrivaltime = 1630676520
+         diverted = None
+         origin = "KPHL"
+         destination = "KBOS"
+         originName = "Philadelphia Intl"
+         originCity = "Philadelphia, PA"
+         destinationName = "Boston Logan Intl"
+         destinationCity = "Boston, MA"
+      },
+      (FlightStruct){
+         ident = "AAL1146"
+         aircrafttype = "A320"
+         filed_ete = "00:59:00"
+         filed_time = 1630413994
+         filed_departuretime = 1630587300
+         filed_airspeed_kts = 413
+         filed_airspeed_mach = None
+         filed_altitude = 230
+         route = "DITCH J225 JFK ROBUC3"
+         actualdeparturetime = -1
+         estimatedarrivaltime = -1
+         actualarrivaltime = -1
+         diverted = None
+         origin = "KPHL"
+         destination = "KBOS"
+         originName = "Philadelphia Intl"
+         originCity = "Philadelphia, PA"
+         destinationName = "Boston Logan Intl"
+         destinationCity = "Boston, MA"
+      },
+      (FlightStruct){
+         ident = "AAL1146"
+         aircrafttype = "A320"
+         filed_ete = "00:46:00"
+         filed_time = 1630410384
+         filed_departuretime = 1630414500
+         filed_airspeed_kts = 400
+         filed_airspeed_mach = None
+         filed_altitude = 230
+         route = "DITCH J225 JFK ROBUC3"
+         actualdeparturetime = 1630416225
+         estimatedarrivaltime = 1630418943
+         actualarrivaltime = 1630418943
+         diverted = None
+         origin = "KPHL"
+         destination = "KBOS"
+         originName = "Philadelphia Intl"
+         originCity = "Philadelphia, PA"
+         destinationName = "Boston Logan Intl"
+         destinationCity = "Boston, MA"
+      },
+      (FlightStruct){
+         ident = "AAL1146"
+         aircrafttype = "A320"
+         filed_ete = "00:47:00"
+         filed_time = 1630323840
+         filed_departuretime = 1630327500
+         filed_airspeed_kts = 399
+         filed_airspeed_mach = None
+         filed_altitude = 230
+         route = "DITCH J225 JFK ROBUC3"
+         actualdeparturetime = 1630328835
+         estimatedarrivaltime = 1630332060
+         actualarrivaltime = 1630332060
+         diverted = None
+         origin = "KPHL"
+         destination = "KBOS"
+         originName = "Philadelphia Intl"
+         originCity = "Philadelphia, PA"
+         destinationName = "Boston Logan Intl"
+         destinationCity = "Boston, MA"
+      },
+      (FlightStruct){
+         ident = "AAL1146"
+         aircrafttype = "A320"
+         filed_ete = "00:53:00"
+         filed_time = 1630151180
+         filed_departuretime = 1630155300
+         filed_airspeed_kts = 390
+         filed_airspeed_mach = None
+         filed_altitude = 230
+         route = "DITCH J225 JFK ROBUC3"
+         actualdeparturetime = 1630158066
+         estimatedarrivaltime = 1630160820
+         actualarrivaltime = 1630160820
+         diverted = None
+         origin = "KPHL"
+         destination = "KBOS"
+         originName = "Philadelphia Intl"
+         originCity = "Philadelphia, PA"
+         destinationName = "Boston Logan Intl"
+         destinationCity = "Boston, MA"
+      },
+ }

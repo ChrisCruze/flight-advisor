@@ -1,0 +1,235 @@
+(FlightInfoStruct){
+   next_offset = -1
+   flights[] = 
+      (FlightStruct){
+         ident = "RPA4734"
+         aircrafttype = "E75L"
+         filed_ete = "01:04:00"
+         filed_time = 1631109900
+         filed_departuretime = 1631282400
+         filed_airspeed_kts = 114
+         filed_airspeed_mach = None
+         filed_altitude = 0
+         route = None
+         actualdeparturetime = 0
+         estimatedarrivaltime = 1631286840
+         actualarrivaltime = 0
+         diverted = None
+         origin = "KLGA"
+         destination = "KBOS"
+         originName = "LaGuardia"
+         originCity = "New York, NY"
+         destinationName = "Boston Logan Intl"
+         destinationCity = "Boston, MA"
+      },
+      (FlightStruct){
+         ident = "RPA4734"
+         aircrafttype = "E170"
+         filed_ete = "00:54:00"
+         filed_time = 1631023440
+         filed_departuretime = 1631196000
+         filed_airspeed_kts = 381
+         filed_airspeed_mach = None
+         filed_altitude = 190
+         route = "MERIT ROBUC3"
+         actualdeparturetime = 0
+         estimatedarrivaltime = 1631200560
+         actualarrivaltime = 0
+         diverted = None
+         origin = "KLGA"
+         destination = "KBOS"
+         originName = "LaGuardia"
+         originCity = "New York, NY"
+         destinationName = "Boston Logan Intl"
+         destinationCity = "Boston, MA"
+      },
+      (FlightStruct){
+         ident = "RPA4734"
+         aircrafttype = "E75S"
+         filed_ete = "00:54:00"
+         filed_time = 1631109126
+         filed_departuretime = 1631109600
+         filed_airspeed_kts = 379
+         filed_airspeed_mach = None
+         filed_altitude = 190
+         route = "MERIT ROBUC3"
+         actualdeparturetime = 1631109780
+         estimatedarrivaltime = 1631112226
+         actualarrivaltime = 1631112226
+         diverted = None
+         origin = "KLGA"
+         destination = "KBOS"
+         originName = "LaGuardia"
+         originCity = "New York, NY"
+         destinationName = "Boston Logan Intl"
+         destinationCity = "Boston, MA"
+      },
+      (FlightStruct){
+         ident = "RPA4734"
+         aircrafttype = "E75S"
+         filed_ete = "00:31:00"
+         filed_time = 1631022762
+         filed_departuretime = 1631023200
+         filed_airspeed_kts = 391
+         filed_airspeed_mach = None
+         filed_altitude = 190
+         route = "MERIT ROBUC3"
+         actualdeparturetime = 1631023545
+         estimatedarrivaltime = 1631025510
+         actualarrivaltime = 1631025510
+         diverted = None
+         origin = "KLGA"
+         destination = "KBOS"
+         originName = "LaGuardia"
+         originCity = "New York, NY"
+         destinationName = "Boston Logan Intl"
+         destinationCity = "Boston, MA"
+      },
+      (FlightStruct){
+         ident = "RPA4734"
+         aircrafttype = "E75L"
+         filed_ete = "00:35:00"
+         filed_time = 1630936238
+         filed_departuretime = 1630936800
+         filed_airspeed_kts = 280
+         filed_airspeed_mach = None
+         filed_altitude = 70
+         route = "MERIT ROBUC3"
+         actualdeparturetime = 1630937663
+         estimatedarrivaltime = 1630940008
+         actualarrivaltime = 1630940008
+         diverted = None
+         origin = "KLGA"
+         destination = "KBOS"
+         originName = "LaGuardia"
+         originCity = "New York, NY"
+         destinationName = "Boston Logan Intl"
+         destinationCity = "Boston, MA"
+      },
+      (FlightStruct){
+         ident = "RPA4734"
+         aircrafttype = "E75S"
+         filed_ete = "00:33:00"
+         filed_time = 1630677288
+         filed_departuretime = 1630677600
+         filed_airspeed_kts = 375
+         filed_airspeed_mach = None
+         filed_altitude = 170
+         route = "MERIT ROBUC3"
+         actualdeparturetime = 1630678775
+         estimatedarrivaltime = 1630680900
+         actualarrivaltime = 1630680900
+         diverted = None
+         origin = "KLGA"
+         destination = "KBOS"
+         originName = "LaGuardia"
+         originCity = "New York, NY"
+         destinationName = "Boston Logan Intl"
+         destinationCity = "Boston, MA"
+      },
+      (FlightStruct){
+         ident = "RPA4734"
+         aircrafttype = "E75S"
+         filed_ete = "00:32:00"
+         filed_time = 1630595211
+         filed_departuretime = 1630591200
+         filed_airspeed_kts = 378
+         filed_airspeed_mach = None
+         filed_altitude = 170
+         route = "MERIT ROBUC3"
+         actualdeparturetime = 1630600315
+         estimatedarrivaltime = 1630602343
+         actualarrivaltime = 1630602343
+         diverted = None
+         origin = "KLGA"
+         destination = "KBOS"
+         originName = "LaGuardia"
+         originCity = "New York, NY"
+         destinationName = "Boston Logan Intl"
+         destinationCity = "Boston, MA"
+      },
+      (FlightStruct){
+         ident = "RPA4734"
+         aircrafttype = "E75L"
+         filed_ete = "00:54:00"
+         filed_time = 1630507236
+         filed_departuretime = 1630504800
+         filed_airspeed_kts = 392
+         filed_airspeed_mach = None
+         filed_altitude = 190
+         route = "MERIT ROBUC3"
+         actualdeparturetime = 1630515643
+         estimatedarrivaltime = 1630517460
+         actualarrivaltime = 1630517460
+         diverted = None
+         origin = "KLGA"
+         destination = "KBOS"
+         originName = "LaGuardia"
+         originCity = "New York, NY"
+         destinationName = "Boston Logan Intl"
+         destinationCity = "Boston, MA"
+      },
+      (FlightStruct){
+         ident = "RPA4734"
+         aircrafttype = "E75S"
+         filed_ete = "00:31:00"
+         filed_time = 1630417047
+         filed_departuretime = 1630419000
+         filed_airspeed_kts = 391
+         filed_airspeed_mach = None
+         filed_altitude = 190
+         route = "MERIT ROBUC3"
+         actualdeparturetime = 1630418575
+         estimatedarrivaltime = 1630420500
+         actualarrivaltime = 1630420500
+         diverted = None
+         origin = "KLGA"
+         destination = "KBOS"
+         originName = "LaGuardia"
+         originCity = "New York, NY"
+         destinationName = "Boston Logan Intl"
+         destinationCity = "Boston, MA"
+      },
+      (FlightStruct){
+         ident = "RPA4734"
+         aircrafttype = "E75S"
+         filed_ete = "00:31:00"
+         filed_time = 1630331520
+         filed_departuretime = 1630332000
+         filed_airspeed_kts = 392
+         filed_airspeed_mach = None
+         filed_altitude = 190
+         route = "MERIT ROBUC3"
+         actualdeparturetime = 1630333032
+         estimatedarrivaltime = 1630335519
+         actualarrivaltime = 1630335519
+         diverted = None
+         origin = "KLGA"
+         destination = "KBOS"
+         originName = "LaGuardia"
+         originCity = "New York, NY"
+         destinationName = "Boston Logan Intl"
+         destinationCity = "Boston, MA"
+      },
+      (FlightStruct){
+         ident = "RPA4734"
+         aircrafttype = "E75S"
+         filed_ete = "00:33:00"
+         filed_time = 1630245048
+         filed_departuretime = 1630245600
+         filed_airspeed_kts = 368
+         filed_airspeed_mach = None
+         filed_altitude = 150
+         route = "MERIT ROBUC3"
+         actualdeparturetime = 1630245996
+         estimatedarrivaltime = 1630248420
+         actualarrivaltime = 1630248420
+         diverted = None
+         origin = "KLGA"
+         destination = "KBOS"
+         originName = "LaGuardia"
+         originCity = "New York, NY"
+         destinationName = "Boston Logan Intl"
+         destinationCity = "Boston, MA"
+      },
+ }
