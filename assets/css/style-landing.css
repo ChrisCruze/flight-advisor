@@ -1007,7 +1007,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .cs-main .left-section {
 	transform: scaleX(-1);
-	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/taxi_man_photo.jpg) no-repeat center center;
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/taxi_man_photo_mobile_v3.jpg) no-repeat right center;
 	background-size: cover;
 }
 
@@ -1027,6 +1027,8 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	 .cs-main .left-section{
 			position: relative;
 			width: 100%;
+/*	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/taxi_man_photo_mobile.jpg) no-repeat center center;
+*/
 			min-height: 100vh;
 	}
 }
