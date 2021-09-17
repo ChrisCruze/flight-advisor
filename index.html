@@ -89,7 +89,6 @@
   };
 
 
-
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const db = getDatabase();
@@ -111,11 +110,14 @@
 
 
   function submit_email(email){
-    set(ref(db, 'emails/'+session_id), {
+    const ref_name = 'emails/'+session_id
+    const updated_dict =  {
       email: email,
       session_id:session_id,
       time_stamp: moment().format(),
-    });
+    }
+    console.log({email,ref_name})
+    set(ref(db, ref_name),updated_dict);
   }
 
   $("#submit_email").click( function()
@@ -128,10 +130,11 @@
           alert('Please enter an email in correct format')
         }
         else {
+          console.log({email_value})
           submit_email(email_value)
           $("#email").val('')
-          window.location.href = "thanks.html?id="+session_id;
-        }
+{/*          window.location.href = "thanks.html?id="+session_id;
+*/}        }
        }
   );
 
