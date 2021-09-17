@@ -120,6 +120,11 @@
     set(ref(db, ref_name),updated_dict);
   }
 
+
+  function updateFirebase(){
+      window.location.href = "thanks.html?id="+session_id;
+  }
+
   $("#submit_email").click( function()
        {
         const email_value = $("#email").val()
@@ -133,8 +138,8 @@
           console.log({email_value})
           submit_email(email_value)
           $("#email").val('')
-{/*          window.location.href = "thanks.html?id="+session_id;
-*/}        }
+          setTimeout(updateFirebase,2000)
+          }
        }
   );
 
