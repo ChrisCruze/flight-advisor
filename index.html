@@ -75,7 +75,7 @@
 <script src="https://cdn.rawgit.com/ChrisCruze/jutility/master/libs/jquery.inlineStyler.min.js"></script>
 <script src="https://www.gstatic.com/firebasejs/9.0.1/firebase-app.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-
+<script src="assets/js/app.js"></script>
 
 
 <script type="module">
@@ -124,6 +124,7 @@
     }
     console.log({email,ref_name})
     set(ref(db, ref_name),updated_dict);
+    slack_sign_up_email_notify(email)
   }
 
 
